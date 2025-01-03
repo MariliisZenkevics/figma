@@ -26,50 +26,73 @@ body {
 }
 
 .logo {
-    flex: 1; 
+    flex: 0; 
     display: flex; 
     justify-content: center;
-  }
+    margin-right: 200px;
+}
 
 .logo img {
-    height: 50px;
+    height: 40px;
     width: auto;
 } 
 
 .navbar {
-    position: absolute;
+    align-items: center;
+    position: fixed;
     top: 0; 
     width: 100%; 
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 50px 300px;
     z-index: 1; 
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+}
+
+.nav-left {
+    display: flex; 
+    list-style: none; 
     margin: 0;
     padding: 0;
-  }
+    gap: 20px; 
+}
   
-  .navbar li {
-    text-align: start;
-  }
-  
-  .navbar a {
+.nav-left li a {
     text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    padding: 10px 20px;
+    color: white;
+    font-weight: normal;
+    padding: 5px;
     transition: background-color 0.3s ease;
-  }
+}
   
-  .navbar a:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Slight hover effect */
+.nav-left li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
     border-radius: 5px;
-  }
+}
+
+.nav-left {
+    flex: 1; 
+}
+
+.nav-right {
+    display: flex; 
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    gap: 20px; 
+}
+  
+.nav-right li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.nav-right li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+    border-radius: 5px;
+}
 
 
 main {
