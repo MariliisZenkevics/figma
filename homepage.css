@@ -58,7 +58,7 @@ body {
   
 .nav-left li a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-weight: normal;
     padding: 5px;
     transition: background-color 0.3s ease;
@@ -83,7 +83,7 @@ body {
   
 .nav-right li a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-weight: normal;
     padding: 5px;
     transition: background-color 0.3s ease;
@@ -99,5 +99,36 @@ main {
     padding: 0px 0px;
 }
 
+h1 {
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.custom-button {
+    background-color: #3292e0;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: small;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transform: translate(0%, -500%);
+}
+
+.custom-button:hover{
+    background-color: #114976;
+}
 
 
