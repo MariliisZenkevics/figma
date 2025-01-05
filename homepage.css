@@ -12,6 +12,20 @@ body {
     text-align: center;
 }
 
+.page {
+    height: 100vh; 
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#home {
+    background-color: #ffffff;
+    color: white;
+  }
+
 .background {
     background-size: cover;
     background-position: center;
@@ -39,7 +53,7 @@ body {
 
 .navbar {
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 0; 
     width: 100%; 
     display: flex;
@@ -107,7 +121,7 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-p {
+.text1 {
     position: absolute;
     top: 60%;
     left: 50%;
@@ -132,3 +146,64 @@ p {
 }
 
 
+
+#features {
+    background-color: #ffffff; 
+    color: #252B42;
+    font-family: 'Graphik';
+    letter-spacing: 0.2px;
+  }
+
+h2  {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.text2 {
+    position: absolute;
+    text-align: center;
+    display: block;
+    padding-top: 150px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtext {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    color: #252B42;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.vector img {
+    height: 40px;
+    width: auto;
+}
+
+.features-image {
+    width: 100%;
+    height: fit-content;
+}
+
+
+#organize {
+    background-color: #ffffff; 
+    color: #252B42;
+    font-family: 'Graphik';
+    letter-spacing: 0.2px;
+}
