@@ -207,3 +207,134 @@ h2  {
     font-family: 'Graphik';
     letter-spacing: 0.2px;
 }
+
+.container2 {
+    display: flex;
+    gap: 20px;
+}
+
+.column2 {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 200px;
+    font-size: large;
+    text-align: start;
+    margin: 0 0 20px;
+}   
+
+.subtext2 {
+   margin: 0 0 20px;
+   flex: 1;
+   padding: 20px;
+   background-color: white;
+   color: #252B42;
+   font-weight: lighter;
+   font-size: small;
+   text-align: start;
+}
+
+.organize-image {
+    width: 100%;
+    height: fit-content;
+    align-items: flex-start;
+    
+}
+
+.column2 h3 {
+    padding: 20px;
+}
+
+.custom-button2 {
+    align-self: flex-start;
+    background-color: #3292e0;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: small;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button2:hover{
+    background-color: #114976;
+}
+
+#prototyping {
+    background-color: #ffffff; 
+    color: #252B42;
+    font-family: 'Graphik';
+    letter-spacing: 0.2px;
+}
+
+.container3 {
+    display: flex;
+    gap: 20px;
+}
+
+.column3{
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 200px;
+    font-size: large;
+    text-align: start;
+    margin: 0 0 20px;
+}
+
+.prototyping-image{
+    width: 100%;
+    height: 250px;
+    width: 300px;
+    align-items: flex-start;
+}
+
+.subtext3 {
+    flex: 1;
+    padding: 20px;
+    font-size: small;
+}
+
+h4 {
+    padding: 20px;
+    font-size: medium;
+}
+
+.column3 h3 {
+    padding: 20px;
+    font-weight: 50;
+    font-size: 40px;
+}
+
+.custom-button3 {
+    align-self: flex-start;
+    background-color: #e2e9ee;
+    color: #292626;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: small;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.custom-button4 {
+    align-self: flex-start;
+    background-color: #3292e0;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: small;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button2:hover{
+    background-color: #114976;
+}
