@@ -157,6 +157,7 @@ h1 {
 h2  {
     font-size: 40px;
     font-weight: lighter;
+    padding-bottom: 50px;
 }
 
 .text2 {
@@ -224,7 +225,7 @@ h2  {
 }   
 
 .subtext2 {
-   margin: 0 0 20px;
+   
    flex: 1;
    padding: 20px;
    background-color: white;
@@ -352,12 +353,12 @@ h4 {
   }
 
 .heading{
-    margin: 10px 0;
+    padding-bottom: 50px;
 }
 
 .subtext4 {
     text-align: center;
-    margin: 10px 0 20px;
+    padding-bottom: 50px;
 }
 
 .container {
@@ -366,17 +367,64 @@ h4 {
     gap: 10px;
   }
   
-  .box {
+.box {
     background-color: #ffffff;
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
-  }
+}
 
 .socialmedia-logo  {
-    flex: 0; 
+    flex: 1; 
     display: flex; 
-    justify-content: center;
+    padding-top: 30px;
+    height: 70px;
+    width: auto;
+}
+
+
+#testimonials {
+    background-color: #ffffff; 
+    color: #252B42;
+    font-family: 'Graphik';
+    letter-spacing: 0.2px;
+}
+
+.subtext5 {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.logo3 {
+   height: 50px;
+   width: auto; 
+}
+
+.client {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.custom-button5 {
+    align-self: flex-start;
+    background-color: #3292e0;
+    color: #ffffff;
     width: 200px;
-    height: fit-content;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: small;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button5:hover{
+    background-color: #114976;
 }
