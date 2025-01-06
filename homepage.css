@@ -428,3 +428,37 @@ h4 {
 .custom-button5:hover{
     background-color: #114976;
 }
+
+#pricing {
+    background-color: #252B42; 
+    color: white;
+    font-family: 'Graphik';
+    letter-spacing: 0.2px;
+}
+
+.container4 {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px; 
+}
+
+.column {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .middle {
+    height: 300px; 
+    background-color: #3292e0;
+    color: white;
+  }
+  
+  .left,
+  .right {
+    height: 200px; 
+  }
+
+
