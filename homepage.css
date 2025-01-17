@@ -175,7 +175,7 @@ h2  {
 .column {
     flex: 1;
     padding: 20px;
-    background-color: white;
+    background-color: #ffffff;
     color: black;
     font-size: large;
     text-align: center;
@@ -392,7 +392,8 @@ h4 {
 
 .subtext5 {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 
 }
 
@@ -434,31 +435,99 @@ h4 {
     color: white;
     font-family: 'Graphik';
     letter-spacing: 0.2px;
+    margin: 0;
+    padding: 0;
 }
 
-.container4 {
+.pricing-heading {
     padding-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    gap: 10px; 
 }
 
-.column {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px solid #ccc;
+.pricing-heading2 {
+    font-size: large;
+    padding-bottom: 10px;
+}
+.section-container6 {
+    text-align: center;
+    width: 70px;
+    padding: 5%;
+    background-color: #363636;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.section-heading6 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+.grid-section6 {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .grid-section6 {
+        grid-template-columns: 1fr;
+        gap: 5%;
+        margin-bottom: 40%;
+    }
+}
+.grid-item6 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 18px;
     border-radius: 5px;
-  }
-  
-  .middle {
-    height: 300px; 
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.grid-item6:hover {
+    background-color: #0056b3;
+}
+
+.number {
+    padding: 0%;
+    margin: 0%;
+    font-size: 4rem;
+}
+.pricingtext {
+    font-weight: 100;
+    margin: 0% ;
+    padding-bottom: 20px;
+}
+
+.per {
+    font-size: small;
+}
+
+.pricing-button {
+    align-self: flex-start;
     background-color: #3292e0;
-    color: white;
-  }
-  
-  .left,
-  .right {
-    height: 200px; 
-  }
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: small;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
+.pricing-button:hover{
+    background-color: #114976;
+}
 
+.features {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: small;
+}
