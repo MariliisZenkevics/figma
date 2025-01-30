@@ -374,6 +374,8 @@ h4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     gap: 10px;
+    justify-content: center;
+    padding-right: 20%;
   }
   
 .box {
